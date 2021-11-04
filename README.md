@@ -22,4 +22,4 @@ Add the following right before the closing `</body>` tag:
 
 ### Including it on demand
 
-Minify the code from [index.js](https://factorial-io.github.io/frontend-linter/index.js) (e.g. on https://minify-js.com/) and create a bookmark in your browser with the following url: `javascript:...` (replace `...` with the minified code)
+Minify the code from [index.js](https://factorial-io.github.io/frontend-linter/index.js) (e.g. on https://minify-js.com/) and create a bookmark in your browser with the following url: `javascript:(function(){...})();` (replace `...` with the minified code)
